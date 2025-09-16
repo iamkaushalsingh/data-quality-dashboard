@@ -1,2 +1,15 @@
-# data-quality-dashboard
-A Python project that validates, cleans, and reports transactional data. The goal is to ensure data integrity before reporting and provide business-ready summaries in both CSV and visual formats.
+# Data Quality and Reporting Dashboard
+A Python project to validate transactional data, clean errors, and generate reports.
+
+## Features
+- Detects missing/invalid/negative values
+- Cleans dataset automatically
+- Generates user summary report (CSV)
+- Creates visualization (PNG chart)
+
+## Usage
+```bash
+pip install -r requirements.txt
+python dashboard.py
+```
+Outputs are saved in results/ folder.
